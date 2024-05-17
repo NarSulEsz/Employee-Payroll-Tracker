@@ -15,5 +15,5 @@ No special skills needed
 
 No special instructions needed
 This is link of repository: https://github.com/NarSulEsz/Employee-Payroll-Tracker
-This is link of web-site itself: https://narsulesz.github.io/Employee-Payroll-Tracker/g
+This is link of web-site itself: https://narsulesz.github.io/Employee-Payroll-Tracker
 
