@@ -27,8 +27,7 @@ const collectEmployees = function() {
         break; 
       }
     }
-    return employees; // Return the array of employee objects
-}
+    return employees; // Display the list of employees
 
 
 // Display the average salary
