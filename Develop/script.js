@@ -27,7 +27,7 @@ const collectEmployees = function() {
         break; 
       }
     }
-
+    return employees; // Return the array of employee objects
 }
 
 
