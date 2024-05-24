@@ -7,28 +7,28 @@ const collectEmployees = function() {
 
       const employees = []; // Created array named "employees" to collect data of employees
   
-     // This while loop asks user to fill anothe employee
+     // This while loop asks user to fill another employee
      while (true) {
       const firstName = prompt("Enter First Name:"); 
       const lastName = prompt("Enter Last Name:"); 
       let salary = prompt("Enter Salary:");
       
           
-      // This push statement adds anothe employee to the array
+      // This push statement adds another employee to the array
       employees.push({
         firstName: firstName,
         lastName: lastName,
         salary: salary,
       });
   
-      // This conditional statement asks if the user wants to add another emloyee. If not, break
+      // This conditional statement asks if the user wants to add another employee. If not, break
       const continueAdding = confirm("Do you want to add another employee?");
       if (!continueAdding) {
         break; 
       }
     }
     return employees; // Display the list of employees
-
+  }
 
 // Display the average salary
 const displayAverageSalary = function(employeesArray) {
@@ -39,6 +39,7 @@ const displayAverageSalary = function(employeesArray) {
 // Select a random employee
 const getRandomEmployee = function(employeesArray) {
   // TODO: Select and display a random employee
+  
 }
 
 /*
