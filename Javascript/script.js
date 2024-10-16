@@ -54,7 +54,26 @@ console.log(`Number of Employees: ${employeesArray.length}`);
 // Select a random employee
 const getRandomEmployee = function(employeesArray) {
   // TODO: Select and display a random employee
-  
+  // Check if there are employees in the array
+  if (employeesArray.length === 0) {
+    console.log("No employees found.");
+    return;
+  }
+
+  // Generate a random index based on the array length
+  const randomIndex = Math.floor(Math.random() * employeesArray.length);
+
+  // Select the random employee
+  const randomEmployee = employeesArray[randomIndex];
+
+  // Display the random employee's details
+  console.log("Randomly Selected Employee:");
+  console.log("First Name: " + randomEmployee.firstName);
+  console.log("Last Name: " + randomEmployee.lastName);
+  console.log("Salary: " + randomEmployee.salary.toLocaleString("en-US", {
+    style: "currency",
+    currency: "USD"
+  }));
 }
 
 /*
